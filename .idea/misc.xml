@@ -5,9 +5,19 @@
       <map>
         <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/drawable/ic_profile_logo.xml" value="0.3435" />
         <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/drawable/main_bg.xml" value="0.359" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/activity_getting_started.xml" value="0.33" />
         <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/activity_login.xml" value="0.35208333333333336" />
         <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/create.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/create_scene.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/fragment_create_info.xml" value="0.3416666666666667" />
         <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/fragment_flash.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/fragment_login.xml" value="0.3328125" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/fragment_share_info.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/fragment_test.xml" value="0.32760416666666664" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/motiontest.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/share.xml" value="0.340625" />
+        <entry key="..\:/Users/Divine/AndroidStudioProjects/mara2/app/src/main/res/layout/slidinglayout.xml" value="0.35104166666666664" />
       </map>
     </option>
   </component>

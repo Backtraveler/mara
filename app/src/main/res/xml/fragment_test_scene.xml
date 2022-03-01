@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/header"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/share"
+            android:textAlignment="textEnd"
+            android:textColor="@color/grey_quarter"
+            android:textSize="@dimen/large_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/header"
+            android:scaleY="0.5"
+            android:scaleX="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/share"
+            android:textAlignment="textEnd"
+            android:textColor="@color/grey_quarter"
+            android:textSize="@dimen/large_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            />
+    </ConstraintSet>
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@+id/start"
+        motion:duration="1000"
+        motion:motionInterpolator="linear" >
+
+        <OnSwipe
+            motion:touchAnchorId="@+id/container"
+            motion:touchAnchorSide="top"
+            motion:dragDirection="dragUp" />
+    </Transition>
+</MotionScene>
